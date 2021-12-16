@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Todo Project</title>
+  </head>
+  <body>
+    <header>
+      <h1>Ivan Todo List</h1>
+    </header>
+    <form action="">
+      <input type="text" class="todoInput" />
+      <button class="todoButton" type="button">
+        <i class="fas fa-plus"></i>
+      </button>
+      <div class="select">
+        <select name="selection" class="filter-todo">
+          <option value="all">All</option>
+          <option value="completed">Completed</option>
+          <option value="uncompleted">Uncompleted</option>
+        </select>
+      </div>
+    </form>
+    <div class="todoContainer">
+      <ul class="todoList"></ul>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
